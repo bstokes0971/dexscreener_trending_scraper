@@ -5,4 +5,5 @@ __pychache__/
 *.__pychache__
 *.png
 *.csv
-*copy*
+archive/
+downloaded_files/

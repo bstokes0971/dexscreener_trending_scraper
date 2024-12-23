@@ -1,6 +1,6 @@
 # DexScreener Trending Scraper
 
-Scrapes DexScreener for 6HR trending tokens and returns this data in a csv. 
+Scrapes DexScreener for 6hr trending tokens and returns this data in a csv. 
 
 ## Features
 - Real-time scraping of DexScreener trending page
@@ -9,15 +9,21 @@ Scrapes DexScreener for 6HR trending tokens and returns this data in a csv.
 ## Setup
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/dexscreener-monitor.git
+git clone https://github.com/bstokes0971/dexscreener_trending_scraper.git
 ```
 
 2. Install requirements
 
 ```bash
-pip install requirements.txt
+cd dexscreener_trending_scraper
+python -m venv .venv
+source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
-5. Run the script
-
+3. Run the script
+```bash
+python dexscreener_trending_scraper.py
+```
 

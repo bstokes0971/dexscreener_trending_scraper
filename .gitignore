@@ -1,0 +1,8 @@
+.env
+.venv
+venv
+__pychache__/
+*.__pychache__
+*.png
+*.csv
+*copy*

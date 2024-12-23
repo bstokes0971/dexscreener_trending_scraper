@@ -1,0 +1,8 @@
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+numpy==1.24.3
+pandas==1.5.3
+selenium==4.13.0
+seleniumbase==4.19.1
+nest-asyncio==1.5.8
+xvfbwrapper==0.2.9
